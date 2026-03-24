@@ -3,50 +3,77 @@
   "description": "Личная база знаний по AI и разработке",
   "notes": [
     {
+      "slug": "ai_agents_evolution",
+      "title": "Эволюция подходов к управлению AI-агентами",
+      "description": "Как передать агенту нужный контекст в нужный момент и получить предсказуемое поведение",
+      "date": "2026-03-20",
+      "tags": [
+        "ai",
+        "agents"
+      ],
+      "file": "ai_agents_evolution.md"
+    },
+    {
       "slug": "harness_engineering",
       "title": "Harness Engineering для AI-агентов",
       "description": "Инфраструктурный слой, который оборачивает агента: входы, выходы, инструменты, память, ограничения и наблюдаемость",
       "date": "2026-03-20",
-      "tags": ["ai", "engineering", "harness"],
+      "tags": [
+        "ai",
+        "engineering",
+        "harness"
+      ],
       "file": "harness_engineering.md"
     }
   ],
   "folders": [
     {
-      "slug": "git",
-      "title": "Git",
+      "slug": "git course",
+      "title": "Git course",
       "notes": [
         {
-          "slug": "git/module_1_1_first_repo_FINAL",
+          "slug": "git course/module_1_1_first_repo_FINAL",
           "title": "Модуль 1.1 — Первый репозиторий",
           "description": "Создаёшь проект, фиксируешь изменения и учишься откатывать ошибки — фундамент Git",
           "date": "2026-03-24",
-          "tags": ["dev", "git"],
-          "file": "git/module_1_1_first_repo_FINAL.md"
+          "tags": [
+            "dev",
+            "git"
+          ],
+          "file": "git course/module_1_1_first_repo_FINAL.md"
         },
         {
-          "slug": "git/module_1_2_gitignore_FINAL",
+          "slug": "git course/module_1_2_gitignore_FINAL",
           "title": "Модуль 1.2 — .gitignore и структура проекта",
           "description": "Контролируешь что отслеживает Git: игнорируешь мусор, коммитишь избирательно",
           "date": "2026-03-24",
-          "tags": ["dev", "git"],
-          "file": "git/module_1_2_gitignore_FINAL.md"
+          "tags": [
+            "dev",
+            "git"
+          ],
+          "file": "git course/module_1_2_gitignore_FINAL.md"
         },
         {
-          "slug": "git/module_2_1_branches_merge",
+          "slug": "git course/module_2_1_branches_merge",
           "title": "Модуль 2.1 — Ветки и слияние",
-          "description": "Работаешь с ветками, сливаешь их через merge и разрешаешь конфликты вручную",
+          "description": "Работаешь с ветками, сливаешь их в main через merge и разрешаешь конфликты вручную",
           "date": "2026-03-24",
-          "tags": ["dev", "git"],
-          "file": "git/module_2_1_branches_merge.md"
+          "tags": [
+            "dev",
+            "git"
+          ],
+          "file": "git course/module_2_1_branches_merge.md"
         },
         {
-          "slug": "git/module_2_2_rebase",
+          "slug": "git course/module_2_2_rebase",
           "title": "Модуль 2.2 — Rebase и чистая история",
-          "description": "Переносишь коммиты поверх main и склеиваешь черновики в один чистый коммит",
+          "description": "Переносишь коммиты поверх main и склеиваешь черновики в один чистый коммит через rebase и rebase -i",
           "date": "2026-03-24",
-          "tags": ["dev", "git"],
-          "file": "git/module_2_2_rebase.md"
+          "tags": [
+            "dev",
+            "git"
+          ],
+          "file": "git course/module_2_2_rebase.md"
         }
       ]
     }
